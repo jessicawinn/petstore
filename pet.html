@@ -15,9 +15,36 @@
             <a href="#contact">Contact</a>
         </nav>
     </header>
-    <div class="pet-list" id="pet-list">
+     <main>
+        <section class="featured">
+            <h2>Featured Pets</h2>
+            <div>
+                Type:
+                <input type="checkbox" id="dog" name="pet-type" value="dog" checked>
+                <label for="dog">Dog</label>
 
-    </div>
+                <input type="checkbox" id="cat" name="pet-type" value="cat" checked>
+                <label for="cat">Cat</label>
+
+                <input type="checkbox" id="capybara" name="pet-type" value="capybara" checked>
+                <label for="capybara">Capybara</label>
+
+                <input type="checkbox" id="bird" name="pet-type" value="bird" checked>
+                <label for="bird">Bird</label>
+            </div>
+            <div class="pet-list" id="pet-list">
+                <!-- <div class="pet">
+                    <img src="img/dog.jpg" alt="Cute Dog">
+                    <p>Charlie - Golden Retriever</p>
+                    <button onclick="adoptPet()">Adopt Now</button>
+                </div>
+                <div class="pet">
+                    <img src="img/cat.webp" alt="Cute Cat">
+                    <p>Milo - British Shorthair</p>
+                    <button onclick="adoptPet()">Adopt Now</button>
+                </div> -->
+            </div>
+        </section>
 
     <footer id="contact"> 
 
@@ -34,6 +61,7 @@
         <!-- </div> -->
 
     </footer> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
